@@ -26,7 +26,7 @@ process.on('unhandledRejection', () => {});
 
             it ('Ticket Booking', async () => {
                 const result = await page.bookfightTicket();
-                expect(result).equal("Chủ nhật, 02/06/2024 (26/4 âm lịch)")
+                expect(result).equal("Thứ 4, 02/10/2024 (30/8 âm lịch)")
             });
 
         });
